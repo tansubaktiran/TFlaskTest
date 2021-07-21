@@ -4,5 +4,4 @@ app = Flask(__name__)
   
 @app.route("/")
 def home_view():
-    script=server_document("flaskbokeh1")
-    return render_template('flaskbokeh1.html',bokS=script)
+    return render_template('flaskbokeh1.html')
