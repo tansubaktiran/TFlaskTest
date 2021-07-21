@@ -8,8 +8,5 @@ def main():
     script=server_document("http://tflasktest1.herokuapp.com/app")
     return render_template('flaskbokeh1.html',bokS=script)
 
-if __name__ == "__main__":
-    app.run()
-
 
 #bokeh serve serv_1.py --allow-websocket-origin=127.0.0.1:5000
